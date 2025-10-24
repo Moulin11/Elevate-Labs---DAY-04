@@ -1,23 +1,74 @@
 # DESIGN DESCRIPTION
 
-# Figma Design Link : https://www.figma.com/design/HJp2quzOSDDNX7qf5olKzg/Elevate-Labs---DAY-01?node-id=0-1&t=NxvfnZu6PHKSy1Hx-1
+# Figma Design Link : https://www.figma.com/design/eQ7mfGeSvuDRugC192YwVA/IRCTC-REVAMP?node-id=0-1&t=ywdXTrkkLGd5SS0Z-1
 
-The Book Share app features a clean and minimalistic authentication interface with a focus on readability and simplicity. Both the Sign Up and Sign In screens follow a consistent visual style using a white background and dark blue accent color (#000080) to establish brand identity.
+**Analysis of Existing Design (Before Redesign)**
 
-Icon & Branding:
-A simple open-book icon placed at the top reinforces the app’s purpose, paired with the bold title “Book Share” in blue for clear visual hierarchy.
+**1. Visual Design & Layout**
 
-Form Fields:
-Rounded input boxes with soft borders maintain a user-friendly and approachable design. Placeholders guide users through required information such as name, email, and password.
+Problem: The homepage looks cluttered, with too many sections packed together.
+Problem: Outdated visual aesthetics (flat design, inconsistent spacing, dense text).
+Problem: Banners and ads distract users from the main booking section.
+What works: It still maintains the Indian Railways identity and highlights multiple travel options.
 
-Buttons:
-Primary buttons (“Sign up” and “Sign in”) use a deep blue background with white bold text, creating strong contrast for visibility and accessibility. A subtle shadow adds depth.
+**2. Navigation**
 
-Alternative Sign-in:
-A Google sign-in button provides a modern, quick-access authentication option, outlined with Google’s signature colors for instant recognition.
+Problem: Navigation bar is overloaded with too many text-based links, making it hard for users to find what they need quickly.
+Problem: No clear separation between primary (Book Ticket) and secondary (Explore, Holidays) tasks.
+What works: Presence of “Help & Support,” “Login/Register,” and “IRCTC eWallet” are useful, just not well organized.
 
-Navigation Texts:
-Supporting links like “Remember me,” “Forget Password,” and “Sign In/Sign Up” are neatly positioned and styled in blue for clear interactivity cues.
+**3. Buttons & Call to Actions (CTAs)**
 
-Overall Layout:
-The screens are centered and well-balanced with generous spacing, ensuring a clean, modern look that enhances user focus and ease of navigation.
+Problem: Buttons (like “Book Ticket” or “Search”) are not visually distinct — similar size and color to other UI elements.
+Problem: No consistent button style (different sizes, fonts, and colors used).
+What works: “Book Ticket” function is clearly available on the homepage.
+
+**4. Typography & Color**
+
+Problem: Font hierarchy is inconsistent — headings, body text, and links look similar.
+Problem: Colors clash slightly (blue, red, black, and white mixed inconsistently).
+What works: Use of Indian Railways blue color maintains brand recognition.
+
+**5. Information Architecture**
+
+Problem: Too much information displayed at once — packages, banners, alerts, etc.
+Problem: User journey (search → select train → book → payment) is not visually guided.
+What works: Inclusion of multiple services (flights, hotels, catering, etc.) in one place.
+
+**✨ Improvements in the Redesigned Version (After Redesign)**
+
+**1. Modern & Clean Layout**
+
+✅ Simplified homepage with clear sections (Search, Packages, Offers, App Promotion, Footer).
+✅ Hero section features a high-quality train image, instantly showing brand identity.
+✅ Removed unnecessary banners → now the focus is on booking and offers.
+
+**2. Streamlined Navigation**
+
+✅ Top navigation is minimal: Home, Exclusive, Explore, Contact, PNR, Daily Deals, Sign In — clean and modern.
+✅ Clear icons for Train, Bus, Hotels, Holidays, etc., improving visual navigation.
+✅ Reduced text clutter → replaced with icons and labels.
+
+**3. Enhanced Button Visibility**
+
+✅ Buttons (like “Search”) now use contrasting color (blue) and consistent rounded shape.
+✅ “Sign Up” button visually pops out in the navbar → improves conversion.
+
+**4. Consistent Typography & Color System**
+
+✅ Introduced a consistent font style — clean, sans-serif, easy to read.
+✅ Blue and white theme with accent colors — aligns with IRCTC’s brand but modernized.
+✅ Clear visual hierarchy — heading > subheading > body text.
+**
+5. Improved Information Flow**
+
+✅ Sections like Other Packages and Discount Offers are neatly card-based — easy to scan.
+✅ Introduced Get Started with Your Rail Journey callout with app download links — great for promoting the app.
+✅ Organized footer into columns (Product, Company, Support, Downloads) → more structured and readable.
+
+**6. Better User Experience**
+
+✅ Intuitive icons guide the user to what they want instantly.
+✅ Reduced visual noise and distractions → encourages direct interaction.
+✅ Modern responsive layout suitable for mobile and desktop.
+✅ “Designed by Moulin ©2025” footer shows a professional personal touch.
